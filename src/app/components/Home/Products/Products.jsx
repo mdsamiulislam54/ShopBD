@@ -29,7 +29,7 @@ const Products = () => {
                 />
               </div>
 
-              <h2 className='text-xl font-semibold mb-2'>{product.title}</h2>
+              <h2 className='text-xl font-semibold mb-2'>{product.title.split(' ').slice(0,2).join(' ')}</h2>
               <p className='text-gray-600 mb-4'>${product.price}</p>
               <button className='bg-rose-500 text-white px-4 py-2 rounded hover:bg-rose-600 transition duration-300 w-full mt-auto'>
                 Add to Cart
