@@ -52,13 +52,13 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="Search..."
-                className="w-[400px] p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-rose-500"
+                className="w-[400px] p-2 border rounded-2xl focus:outline-none focus:ring-2 focus:ring-rose-500"
               />
-              <span className="absolute text-center top-0 right-0 h-full flex items-center">
-                <span className="bg-rose-500 h-full p-2 text-center rounded-r-md text-white">
-                  <FaSearch />
-                </span>
-              </span>
+              <div className="absolute text-center top-0 right-0 h-full px-4 rounded-tr-2xl rounded-br-2xl bg-rose-500 flex items-center justify-center">
+               
+                  <FaSearch className=" text-white " />
+              
+              </div>
             </div>
 
             <div className="relative flex items-center cursor-pointer">
